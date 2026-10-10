@@ -5,13 +5,13 @@
 # The release workflow fills in VERSION and SHA256 for each tagged release;
 # this file in the repository is the template.
 cask "dit" do
-  version "0.17.0"
-  sha256 "3c68bffb70e7c0fa71dca2a82ef7ba024b597a1122b7b00afa20369291b71235"
+  version "0.18.0"
+  sha256 "ed18c332bf6236e806a13921dc48515aab07b5c22d4a9982d10335a18dfc50d3"
 
-  url "https://github.com/faridlab/dit-cli/releases/download/v#{version}/DIT-macos.zip"
+  url "https://github.com/faridlab/dit/releases/download/v#{version}/DIT-macos.zip"
   name "DIT"
   desc "Local-first project management kept as Markdown in git"
-  homepage "https://github.com/faridlab/dit-cli"
+  homepage "https://github.com/faridlab/dit"
 
   depends_on macos: :big_sur
 
