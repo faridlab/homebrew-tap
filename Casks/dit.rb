@@ -5,8 +5,8 @@
 # The release workflow fills in VERSION and SHA256 for each tagged release;
 # this file in the repository is the template.
 cask "dit" do
-  version "0.19.0"
-  sha256 "b277eba07d6027c164e6eb919ade583ddc88269c5862d27de3b452503815fbd6"
+  version "0.20.0"
+  sha256 "56c143bafde51914db4953e007e4de6e500955378069aa0556a2f34b3aeb0042"
 
   url "https://github.com/faridlab/dit/releases/download/v#{version}/DIT-macos.zip"
   name "DIT"
